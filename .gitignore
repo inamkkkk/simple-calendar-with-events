@@ -1,0 +1,51 @@
+# Flutter/Dart specific files and folders
+.dart_tool/
+.idea/
+.metadata
+android/
+ios/
+linux/
+macos/
+web/
+build/
+
+# IntelliJ project files
+*.iml
+*.ipr
+*.iws
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+tmp/
+
+# Packages
+.packages
+
+# Crash Reports
+crashreports/
+
+# VS Code
+.vscode/
+
+# Secrets
+*.env
+secrets.json
+
+# Gradle
+.gradle/
+/build
+
+# Files that shouldn't be committed to git but locally
+*.local
+*.lock
+
+# Generated files
+**/*.g.dart
+**/*.freezed.dart
+
+#Temporary files created by Package Manager
+*.tmp*
